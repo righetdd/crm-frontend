@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg2"
+   width="146.66667"
+   height="146.66667"
+   viewBox="0 0 146.66667 146.66667"
+   sodipodi:docname="logo2.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient827">
+      <stop
+         style="stop-color:#008f94;stop-opacity:1;"
+         offset="0"
+         id="stop823" />
+      <stop
+         style="stop-color:#008f94;stop-opacity:0;"
+         offset="1"
+         id="stop825" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2324">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop2320" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop2322" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2294"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop2292" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2288"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop2286" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2294"
+       id="linearGradient2296"
+       x1="6.2146988"
+       y1="73.954811"
+       x2="141.69492"
+       y2="73.954811"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2324"
+       id="radialGradient2326"
+       cx="72.302524"
+       cy="70.6583"
+       fx="72.302524"
+       fy="70.6583"
+       r="52.799924"
+       gradientTransform="matrix(1,0,0,0.2651519,0,51.923118)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient827"
+       id="linearGradient829"
+       x1="5.7146988"
+       y1="73.954811"
+       x2="142.19492"
+       y2="73.954811"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="1.6090909"
+     inkscape:cx="-104.47489"
+     inkscape:cy="68.361588"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     inkscape:snap-text-baseline="true" />
+  <ellipse
+     id="path12"
+     cx="73.954811"
+     cy="73.954811"
+     rx="67.740112"
+     ry="66.497177"
+     style="opacity:1;fill:url(#linearGradient829);fill-opacity:1;stroke:url(#linearGradient2296)" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Nimbus Roman';-inkscape-font-specification:'Nimbus Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:url(#radialGradient2326);stroke-width:0.4;stroke-miterlimit:4;stroke-dasharray:none"
+     x="18.0226"
+     y="83.8983"
+     id="text18"><tspan
+       sodipodi:role="line"
+       id="tspan16"
+       x="18.0226"
+       y="83.8983"
+       style="stroke:url(#radialGradient2326)">SGSM</tspan></text>
+</svg>
