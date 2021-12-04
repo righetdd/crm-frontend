@@ -1,68 +1,37 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# CRM Client side API
 
-## Available Scripts
+This api is a part of create CRM Ticket system with MERN stack from scratch tutorial series.
+Link for the series is https://youtu.be/XWbEzWSKBfs
 
-In the project directory, you can run:
+## How to use
 
-### `npm start`
+- run `git clone https://github.com/DentedCode/client-api.git`
+- run `npm install`
+- run `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Note: Make sure you have nodemon is installed in your system otherwise you can install as a dev dependencies in the project.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## API Resources
 
-### `npm test`
+### User API Resources
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+All the user API router follows `/v1/user/`
 
-### `npm run build`
+| #   | Routers                           | Verbs | Progress | Is Private | Description                                      |
+| --- | --------------------------------- | ----- | -------- | ---------- | ------------------------------------------------ |
+| 1   | `/v1/user/login`                  | POST  | TODO     | No         | Verify user Authentication and return JWT        |
+| 2   | `/v1/user/request-reset-password` | POST  | TODO     | No         | Verify email and email pin to reset the password |
+| 3   | `/v1/user/reset-password`         | PUT   | TODO     | No         | Replace with new password                        |
+| 4   | `/v1/user/{id}`                   | GET   | TODO     | Yes        | Get users Info                                   |
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Ticket API Resources
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+All the user API router follows `/v1/ticket/`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+| #   | Routers                        | Verbs | Progress | Is Private | Description                             |
+| --- | ------------------------------ | ----- | -------- | ---------- | --------------------------------------- |
+| 1   | `/v1/ticket`                   | GET   | TODO     | Yes        | Get all ticket for the logined in user  |
+| 2   | `/v1/ticket/{id}`              | GET   | TODO     | Yes        | Get a ticket detsils                    |
+| 3   | `/v1/ticket`                   | POST  | TODO     | Yes        | Create a new ticket                     |
+| 4   | `/v1/ticket/{id}`              | PUT   | TODO     | Yes        | Update ticket detsils ie. reply message |
+| 5   | `/v1/ticket/close-ticket/{id}` | PUT   | TODO     | Yes        | Update ticket detsils ie. reply message |
